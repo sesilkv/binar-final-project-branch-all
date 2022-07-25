@@ -1,0 +1,64 @@
+.btn-cate {
+	background: #e2d4f0;
+	border-radius: 12px;
+	font-size: 13px;
+	padding: 10px 15px;
+	border-style: none;
+}
+
+.btn-cate:hover,
+.btn-cate:focus {
+	background: #7126b5;
+	color: white;
+}
+
+.telusur-cate {
+	font-weight: 500;
+}
+
+/* --------------- MEDIA SCREEN --------------- */
+@media screen and (max-width: 770px) {
+	.fi {
+		display: none;
+	}
+}
+
+/* --------------- MEDIA SCREEN --------------- */
+
+.style_producthome {
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+h5,
+p {
+	font-size: 14px;
+}
+
+.style_card_home {
+	margin: 10px;
+	transition: 0.3s;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+	border-style: none;
+	width: 180px;
+	height: 300px;
+	overflow-y: hidden;
+}
+
+.style_card_home:hover,
+.style_card_home:active {
+	transform: scale(1.05);
+}
+
+.style_img {
+	border-radius: 13px;
+	/* margin-top: 5px; */
+	/* border: 1px solid rgba(0, 0, 0, 0.15); */
+	width: auto;
+	height: 100px;
+	object-fit: contain;
+}
